@@ -10,5 +10,10 @@ public class RestController {
 	public String test(){
 		return "test";
 	}
+	
+	@RequestMapping("/test")
+	public String test2(){
+		return "test2";
+	}
 
 }
